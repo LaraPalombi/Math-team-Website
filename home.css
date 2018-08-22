@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+.sun {
+
+    position:  relative;
+    height: 700px;
+    width: 700px;
+    margin-top: -280px;
+    margin-left: -280px;
+
+}
+
+/* Topnav bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+  
+  /* .topnav a:hover {
+    color: black;
+  } */
+  
+  /* .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  } */
+
+  .parallax { 
+    position: relative;
+    z-index: -1;
+    /* The image used */
+    background-image: url("math.jpg");
+    margin-top: 0px;
+
+    /* Set a specific height */
+    height: 600px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.school {
+
+
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  letter-spacing: 10px;
+  color: white;
+  margin-top: -400px;
+  margin-left: 350px;
+  color: white;
+  font-size: 20px;
+
+}
+
+.rectangle {
+  height: 50px;
+  width: 650px;
+  background-color: #555;
+  margin-left: 340px;
+  margin-top: -40px;
+
+}
+
+.parallaxtwo { 
+  position: relative;
+  z-index: -1;
+  /* The image used */
+  background-image: url("mathtwo.jpg");
+  margin-top: 600px;
+
+  /* Set a specific height */
+  height: 600px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.joinheader {
+
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin-top: -830px;
+  margin-left: 20px;
+  font-size: 20px;
+
+
+}
