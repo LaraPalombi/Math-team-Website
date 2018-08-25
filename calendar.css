@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico');
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+
+.head {
+
+    position: relative;
+    float: left;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+
+}
+
+  .parallax { 
+    position: relative;
+    z-index: -1;
+    /* The image used */
+    background-image: url("shapes.jpg");
+    margin-top: 0px;
+
+    /* Set a specific height */
+    height: 900px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.september {
+
+    position: relative;
+    z-index: 1;
+    height: 150%;
+    margin-top: -950px;
+    margin-left: 300px;
+
+}
+
+.circle {
+    position: relative;
+    z-index: 2;
+    height: 18px;
+    width: 18px;
+    background-color: rgba(255, 166, 0, 0);
+    border-radius: 50%;
+    margin-top: -415px;
+    margin-left: 605px;
+    transition: transform .2s;
+}
+
+.circle:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.accordion {
+    cursor: pointer;
+    outline: none;
+    transition: 0.4s;
+    position: relative;
+    z-index: 2;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255, 166, 0, 0.705);
+    border-radius: 50%;
+
+}
+
+.active, .accordion:hover {
+    background-color: rgba(68, 0, 255, 0.61); 
+}
+
+.panel {
+    padding: 0 18px;
+    width: 300px;
+    display: none;
+    background-color: rgba(255, 225, 248, 0.986);
+    overflow: hidden;
+    margin-left: -150px;
+}
+
+
+
